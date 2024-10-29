@@ -4,8 +4,11 @@ Project Explanation
 
 2. User Roles:
 
-Customers: They can submit complaints and receive instant auto-responses based on the nature of their complaint.
-Restaurant Owners: They can analyze complaints over selected periods (e.g., last 30, 60, or 90 days) to identify trends and areas for improvement.
+Customers:
+They can submit complaints and receive instant auto-responses based on the nature of their complaint.
+
+Restaurant Owners:
+They can analyze complaints over selected periods (e.g., last 30, 60, or 90 days) to identify trends and areas for improvement.
 3. Key Features:
 
 Complaint Submission and Response:
@@ -19,7 +22,8 @@ Owners can select a review period to view the count and distribution of complain
 The system provides insights into complaint severity, urgency, and whether the complaint is first-time or repeated.
 4. Technical Approach:
 
-Data Collection: Utilized web scraping techniques to gather negative reviews specifically from Absolute Barbeques, enriching the dataset for analysis.
+Data Collection:
+Utilized web scraping techniques to gather negative reviews specifically from Absolute Barbeques, enriching the dataset for analysis.
 Multi-Label Classification with BERT: Fine-tuned a BERT model to classify complaints into multiple categories based on the text input.
 BERTopic for Topic Modeling: Employed BERTopic to extract key topics from complaints, helping identify common issues.
 Sentiment Analysis: Used sentiment analysis to classify complaints by urgency and severity.
