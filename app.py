@@ -10,7 +10,7 @@ model = BertForSequenceClassification.from_pretrained(".", num_labels=6).to("cud
 
 # Load the DataFrame
 try:
-    df = pd.read_csv("Final_Dataset.csv")
+    df = pd.read_csv("Final_dataset.csv")
 except Exception as e:
     st.error(f"Error loading data: {e}")
     st.stop()
