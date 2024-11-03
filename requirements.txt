@@ -1,0 +1,6 @@
+streamlit==1.39.0
+pandas==2.2.3
+torch==2.5.0+cu121
+transformers==4.46.0
+textblob==0.18.0.post0
+numpy==1.26.4
