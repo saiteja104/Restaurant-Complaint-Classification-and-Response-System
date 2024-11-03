@@ -5,8 +5,8 @@ from transformers import BertTokenizer, BertForSequenceClassification
 from textblob import TextBlob
 
 # Initialize the tokenizer and model
-tokenizer = BertTokenizer.from_pretrained("result")  # Use your saved model folder
-model = BertForSequenceClassification.from_pretrained("result", num_labels=6).to("cuda" if torch.cuda.is_available() else "cpu")
+tokenizer = BertTokenizer.from_pretrained(".")  # Use your saved model folder
+model = BertForSequenceClassification.from_pretrained(".", num_labels=6).to("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load the DataFrame
 try:
